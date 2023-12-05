@@ -1,0 +1,20 @@
+stages:
+  - build
+  - deploy
+
+before_script:
+  - echo "Начинаем сборку"
+  - docker info
+
+build:
+  stage: build
+  script:
+    - echo "Сборка.."
+    - docker rmi -t osumki-app-image:latest
+    - docker build -t osumki-app-image:latest .
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Распакоука..."
+    - docker run -d -p 8080:1222 --ip 172.17.0.2 --name osumki-app-container osumki-app-image:latest

@@ -1,0 +1,56 @@
+.first{
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+.second{
+    width: fit-content;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    background-color: white;
+}
+.third{
+    width: 600px;
+    max-width: 100vw;
+}
+.fourth{
+    width: 100%;
+}
+.five{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.six{
+    font-size: 20px; margin-bottom: 20px;
+}
+.seven{
+    padding: 10px 30px; font-size: 30px; letter-spacing: 3px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; border: solid 2px rgba(0, 0, 0, 0.2); border-radius: 10px;
+}
+.eight{
+    width: 600px; max-width: 100vw; height: 150px; background-color: rgba(0, 0, 0, 0.7);
+    display: flex; flex-direction: row; align-items: center; justify-content: space-between;
+}
+.nine{
+    margin-left: 5%; color: white; font-size: 14px; font-weight: 400; display: flex; flex-direction: column;
+}
+.ten{
+    margin-bottom: 20px; cursor: pointer; color: white; text-decoration: none;
+}
+.eleven{
+    cursor: pointer; color: white; text-decoration: none;
+}
+.twelve{
+    height: 60%; margin-right: 5%;
+}
+.thirteen{
+    height: 100%;
+}
